@@ -1,10 +1,11 @@
 require_relative 'nameable'
 class BaseDecorator < Nameable
-  attr_accessor :nemeable
-  def initialize (nemeable )
-    @nameable =nemeable
+  # attr_accessor :nemeable
+  def initialize (nameable_obj)
+    super()
+    @nameable_obj = nameable_obj
   end
   def correct_name
-    @nemeable.correct_name
+    @nameable_obj.correct_name
   end
 end

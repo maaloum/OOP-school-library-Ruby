@@ -1,7 +1,7 @@
 require_relative 'baseDecorator'
 class TrimmerDecorator < BaseDecorator
   def correct_name
-    if @nameable.correct_name.size == 10? correct_name : correct_name.strip
-    end
+    super()
+    return super.slice(0..9) unless super.length <= 10
   end
 end
