@@ -5,4 +5,5 @@ class Book
     @author = author
   end
   attr_accessor :title, :author
+  has_many :Rental
 end

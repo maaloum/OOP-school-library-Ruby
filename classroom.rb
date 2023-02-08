@@ -3,7 +3,7 @@ class Classroom
   def initialize(label)
     @label = label
   end
-  attr_accessor :@label
+  attr_accessor :label
   has_many :student
 
 end
