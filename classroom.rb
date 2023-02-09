@@ -4,6 +4,5 @@ class Classroom
     @label = label
   end
   attr_accessor :label
-  has_many :student
 
 end

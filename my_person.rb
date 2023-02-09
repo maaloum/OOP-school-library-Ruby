@@ -8,7 +8,6 @@ class Person < Nameable
     @parent_permission = parent_permission
   end
   attr_accessor :name, :age
-  has-many :Rental
   attr_reader :id
 
   def of_age?

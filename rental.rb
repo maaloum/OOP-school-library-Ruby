@@ -5,6 +5,5 @@ class Rental
     @person = person
   end
   attr_accessor :date
-  belongs-to :Book, :Person
 
 end
