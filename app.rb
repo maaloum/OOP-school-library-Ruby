@@ -156,7 +156,7 @@ class App
     when '3' then create_person
     when '4' then create_book
     when '5' then create_rental
-    when '6' then rentals_of_person
+    when '6' then list_all_rental
     end
   end
 
