@@ -3,7 +3,6 @@ require_relative 'my_teacher'
 require_relative 'book'
 require_relative 'rental'
 
-
 class App
   def initialize
     @cmd = {
