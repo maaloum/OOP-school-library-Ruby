@@ -99,7 +99,7 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/FuadNabi/OOP-school-library/issues/).
+Feel free to check the [issues page](https://github.com/maaloum/OOP-school-library-Ruby/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +133,6 @@ I would like to thank...
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-
-This project is [MIT](https://github.com/FuadNabi/OOP-school-library/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/maaloum/OOP-school-library-ruby/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

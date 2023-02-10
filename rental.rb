@@ -1,3 +1,5 @@
+require_relative 'my_person'
+require_relative 'book'
 class Rental
   def initialize(date, book, person)
     @date = date

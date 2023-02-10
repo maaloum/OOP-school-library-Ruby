@@ -6,8 +6,9 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
 
   attr_reader :id
 
